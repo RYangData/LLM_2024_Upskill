@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "langchain-agents-upskill-0"
+version = "0.1.0"
+description = ""
+authors = ["RYangData <53895743+RYangData@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+langchain = "^0.1.16"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
